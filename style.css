@@ -1,0 +1,142 @@
+/* Basic Reset and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1a1a1a;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #e50914; /* Netflix Red */
+    cursor: pointer;
+}
+
+/* Main Content Area */
+.main-content {
+    padding: 40px;
+}
+
+/* Homepage Movie Grid */
+#home-page .grid-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-left: 4px solid #e50914;
+    padding-left: 10px;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-card .card-title {
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Player Page Styles */
+#player-page .back-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#player-page .back-button:hover {
+    background-color: #f6121d;
+}
+
+#player-page .video-player-wrapper {
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#player-page .video-player {
+    width: 100%;
+    height: auto;
+}
+
+#player-page .movie-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#player-page .movie-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    color: #ccc;
+}
+
+/* Hide pages by default */
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 20px;
+    }
+    .header {
+        padding: 20px;
+        text-align: center;
+    }
+    .movie-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .movie-card img {
+        height: 225px;
+    }
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "m1",
+        "title": "Big Buck Bunny",
+        "description": "A large and lovable rabbit deals with three mischievous rodents. A classic open-source film by the Blender Foundation.",
+        "name": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/800px-Big_buck_bunny_poster_big.jpg"
+    },
+    {
+        "id": "m2",
+        "title": "Sintel",
+        "description": "A lonely girl, Sintel, is on a journey to find her companion, a baby dragon she calls Scales.",
+        "name": "/videos/video.mp4",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sintel_poster_release.jpg/800px-Sintel_poster_release.jpg"
+    },
+    {
+        "id": "m3",
+        "title": "Tears of Steel",
+        "description": "In a dystopian future, a group of warriors and scientists fight to save the world from destructive robots.",
+        "name": "/videos/video2.mkv",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Tears_of_Steel_poster.jpg/800px-Tears_of_Steel_poster.jpg"
+    },
+    {
+        "id": "m4",
+        "title": "Elephants Dream",
+        "description": "Two strange characters explore a surreal, dream-like machine. The first open-source film created with Blender.",
+        "name": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Elephants_Dream_s5_proog.jpg/800px-Elephants_Dream_s5_proog.jpg"
+    }
+]
